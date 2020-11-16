@@ -1,0 +1,179 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.996524139776811 0.07669029802067459 0.0325305553531886 0.2877659667394616
+  position -0.032286275585671986 2.7719286909570733 8.22914852374521
+  followOrientation TRUE
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_countryside"
+}
+RectangleArena {
+  translation 0.19 0 0
+  floorSize 8 8
+  floorTileSize 0.25 0.25
+  wallHeight 0.4
+}
+Table {
+  translation -1.91 0 2.59
+}
+WoodenBox {
+  translation 0.81 0.05 -0.14
+  name "wooden box(2)"
+  size 0.3 0.6 0.5
+}
+OilBarrel {
+  translation 0.88 0.3 2.64
+  height 0.62
+}
+OilBarrel {
+  translation -2.73 0.3 -0.59
+  name "oil barrel(1)"
+  height 0.62
+}
+WoodenBox {
+  translation -1.37 0.05 -1.2
+  name "wooden box(4)"
+  size 0.2 0.5 0.2
+}
+Pioneer2 {
+  translation -0.16682000046507442 0 -0.01251384658442042
+  rotation 0 1 0 4.7123
+  controller "my_controller"
+}
+WoodenBox {
+  translation 0.55 0.05 0.99
+  name "wooden box(3)"
+  size 0.2 0.4 0.2
+}
+WoodenBox {
+  translation -1.28 0.05 0.99
+  name "wooden box(6)"
+  size 0.2 0.4 0.2
+}
+WoodenBox {
+  translation 1.32 0.05 1.88
+  name "wooden box(1)"
+  size 0.2 0.5 0.2
+}
+WoodenBox {
+  translation 0.81 0.05 -1.6
+  name "wooden box(8)"
+  size 0.3 0.6 0.5
+}
+WoodenBox {
+  translation -1.46 0.05 0.01
+  name "wooden box(5)"
+  size 0.3 0.6 0.5
+}
+WoodenBox {
+  translation -2.01 0.05 1.17
+  name "wooden box(10)"
+  size 0.3 0.6 0.5
+}
+WoodenBox {
+  translation 2.49 0.05 2.18
+  name "wooden box(11)"
+  size 0.3 0.6 0.5
+}
+WoodenBox {
+  translation 2.49 0.05 -2.19
+  name "wooden box(12)"
+  size 0.3 0.6 0.5
+}
+WoodenBox {
+  translation -2.06 0.05 -2.19
+  name "wooden box(13)"
+  size 0.3 0.6 0.5
+}
+DirectionalLight {
+  direction 0 -1 0
+}
+WoodenBox {
+  translation 1.78 0.0500087 0.58
+  rotation 0 0 1 4.692820414042842e-06
+  size 0.3 0.5 0.3
+}
+WoodenBox {
+  translation 1.78 0.0500087 -1.47
+  rotation 0 0 1 4.692820414042842e-06
+  name "wooden box(9)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -0.32 0.0499995 1.7
+  rotation 0.9999999999972473 2.346409999993541e-06 1.125079999996903e-14 3.14159
+  name "wooden box(7)"
+  size 0.3 0.4 0.3
+}
+Solid {
+  translation 2.44 0.23 0
+  scale 3 3 3
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 1 1
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.1
+        subdivision 2
+      }
+    }
+  ]
+  boundingObject Sphere {
+    radius 0.1
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.04 0.23 -2.66
+  scale 3 3 3
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 1 1
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.1
+        subdivision 2
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Sphere {
+    radius 0.1
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 3.57 0.23 2.13
+  scale 3 3 3
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 1 1
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.1
+        subdivision 2
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Sphere {
+    radius 0.1
+  }
+  physics Physics {
+  }
+}

@@ -1,0 +1,56 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+  basicTimeStep 64
+  FPS 30
+}
+Viewpoint {
+  orientation -0.9998005306550533 -0.01966415999702952 -0.003495670677458255 0.9995728311631232
+  position 0.11701143841421151 9.690787440786298 6.036559276282698
+  followOrientation TRUE
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_countryside"
+}
+RectangleArena {
+  translation 0.08 0 0
+  floorSize 5 5
+  floorTileSize 0.25 0.25
+  wallHeight 0.4
+}
+WoodenBox {
+  translation 3.85 0.370006 -3.37
+  rotation -0.5773526025188509 -0.5773496025209163 0.5773486025216047 -2.094395307179586
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 0.64 0.369999 1e-06
+  rotation -0.5773526025188509 -0.5773496025209163 0.5773486025216047 -2.094395307179586
+  name "wooden box(11)"
+  size 0.9 0.6 0.6
+}
+DirectionalLight {
+  direction 0 -1 0
+}
+Pioneer3dx {
+  translation 0.025 0.0975 0
+  controller "my_controller"
+  extensionSlot [
+    Gyro {
+    }
+    Accelerometer {
+    }
+    DistanceSensor {
+      resolution 0.01
+    }
+    GPS {
+    }
+    Display {
+      width 500
+      height 500
+    }
+    Compass {
+    }
+  ]
+}
